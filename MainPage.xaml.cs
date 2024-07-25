@@ -82,8 +82,8 @@ namespace ExaamenCalculadora
 
         private void BtMultiplicar_Clicked(object sender, EventArgs e)
         {
-            AgregarNumero("x");
-            operador = "x";
+            AgregarNumero("*");
+            operador = "*";
         }
 
         private void BTborrar_Clicked(object sender, EventArgs e)
@@ -195,7 +195,7 @@ namespace ExaamenCalculadora
             }
             catch (Exception ex)
             {
-                DisplayAlert("Error", ex.Message, "Aceptar");
+                DisplayAlert("Error", "Operacion no valida", "Aceptar");
             }
         }
 
@@ -220,7 +220,7 @@ namespace ExaamenCalculadora
             }
             catch (Exception ex)
             {
-                DisplayAlert("Error", ex.Message, "Aceptar");
+                DisplayAlert("Error", "Ingrese un numero para calcular el porcentaje automatico al .10%", "Aceptar");
             }
         }
 
