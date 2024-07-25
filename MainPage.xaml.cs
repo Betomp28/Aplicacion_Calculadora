@@ -82,8 +82,8 @@ namespace ExaamenCalculadora
 
         private void BtMultiplicar_Clicked(object sender, EventArgs e)
         {
-            AgregarNumero("*");
-            operador = "*";
+            AgregarNumero("x");
+            operador = "x";
         }
 
         private void BTborrar_Clicked(object sender, EventArgs e)

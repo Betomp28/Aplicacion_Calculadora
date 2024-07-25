@@ -52,7 +52,7 @@
                 <Button x:Name="BtDividir" Grid.Row="1" Grid.Column="1" Text="÷" FontSize="20" 
                     VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Beige" 
                     TextColor="Black" Clicked="BtDividir_Clicked" />
-                <Button x:Name="BtMultiplicar" Grid.Row="1" Grid.Column="2" Text="X" FontSize="20" 
+                <Button x:Name="BtMultiplicar" Grid.Row="1" Grid.Column="2" Text="x" FontSize="20" 
                     VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Beige" 
                     TextColor="Black" Clicked="BtMultiplicar_Clicked" />
                 <ImageButton x:Name="BTborrar" Grid.Row="1" Grid.Column="3" 
